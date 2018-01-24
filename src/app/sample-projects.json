@@ -1,0 +1,21 @@
+
+{ "projects": [{
+    "name": "Pierre's Needs a new Cellar",
+    "author": "Pierre Gunderson",
+    "description": "Pierre's general store would like to expand their warehouse to include an assortment of root vegetables, beer, and wine to sell to customers.",
+    "reward": "One bottle of the first batch of cellar wine.",
+    "money": 0
+    }, {
+    "name": "Leah needs an art studio built",
+    "author": "Leah Churchwell",
+    "description": "Leah does so much art but she needs somewhere to display and sell it! Leah needs help to build a new studio on her property, as well as wood and tools.",
+    "reward": "An original sculpture.",
+    "money": 0
+      }, {
+    "name": "Elliot Needs a new Portrait",
+    "author": "Elliot Waddsworth",
+    "description": "Elliot needs a new portrait done. Come to his place at noon tomorrow with your best try and he will judge it accordingly.",
+    "reward": "Elliot will add the best portrait to his home collection.",
+    "money": 0
+  }]
+}

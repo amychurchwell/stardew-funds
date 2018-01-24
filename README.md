@@ -12,7 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Including things like:
 * a name
-* the project starters/managers, 
+* the project starters/managers,
 * a description
 * the amount of money the project is hoping to raise
 * what they'll do with the funds raised
@@ -23,7 +23,8 @@ Including things like:
 - [ ] As a user, I want to click a button or fill out a form to fund a project.
 
 - [ ] As a user, I want the option to post my own project or charitable act that seeks funding.
-As an administrator, I want to add, update, or delete projects as necessary. (User authentication is not required).
+
+- [ ] As an administrator, I want to add, update, or delete projects as necessary. (User authentication is not required).
 
 - [ ] As a user, as the site grows I want ideas, projects, and charitable acts to be separate types of objects, each residing on their own page. Things like charitable acts might have different types of properties/details than companies seeking startup funding, too.
 

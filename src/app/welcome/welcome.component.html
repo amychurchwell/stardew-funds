@@ -1,3 +1,6 @@
-<p>
-  welcome works!
-</p>
+<div class="container">
+  <div *ngFor="let project of projects | async" (click)="goToDetailPage(project)" class="card">
+    <h2>{{project.name}} by {{project.author}}</h2>
+    <h1>{{project.$key}}</h1>
+  </div>
+</div>
