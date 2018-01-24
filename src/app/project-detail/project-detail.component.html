@@ -1,6 +1,6 @@
 <div>
-  <h3>{{(projectToDisplay | async)?.name}}</h3>
-  <h4>{{(projectToDisplay | async)?.author}}</h4>
-  <p>{{(projectToDisplay | async)?.description}}</p>
-  <h4>{{(projectToDisplay | async)?.reward}}</h4>
+  <h3 class="detail-title">{{(projectToDisplay | async)?.name}}</h3>
+  <h6>Posted By: {{(projectToDisplay | async)?.author}}</h6>
+  <p class="detail-desc">{{(projectToDisplay | async)?.description}}</p>
+  <h6>Reward to the highest funder: {{(projectToDisplay | async)?.reward}}</h6>
 </div>

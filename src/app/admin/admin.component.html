@@ -27,7 +27,13 @@
         <br>
         <textarea #newReward></textarea>
       </div>
-      <button (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''">Add</button>
+
+      <div>
+        <label>Money Goal:</label>
+        <br>
+        <input type="number" #newMoney>
+      </div>
+      <button (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''; newMoney.value='';">Add</button>
     </div>
   </div>
 </div>
