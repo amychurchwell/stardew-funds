@@ -19,6 +19,13 @@ export class ProjectService {
   }
 
   getProjectById(projectId: string) {
-    return this.database.object('projects/' + projectId);
+    return this.database.object('/projects/' + projectId);
   }
+  updateProject(localUpdatedProject){
+    var projectEntryInFirebase = this.getProjectById(localUpdatedProject.$key);
+    projectEntryInFirebase.update({name: localUpdatedProject.name,
+                                author: localUpdatedProject.author,
+                                description: localUpdatedProject.description});
+  }
+
 }

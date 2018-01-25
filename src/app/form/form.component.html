@@ -1,0 +1,37 @@
+<div class="panel-heading">
+  <h3>Add New Project to the Site</h3>
+</div>
+<div class="panel-body">
+  <div>
+    <div>
+      <label>Project Name:</label>
+      <br>
+      <input #newName>
+    </div>
+
+    <div>
+      <label>Author:</label>
+      <br>
+      <input #newAuthor>
+    </div>
+
+    <div>
+      <label>Description:</label>
+      <br>
+      <textarea #newDescription></textarea>
+    </div>
+
+    <div>
+      <label>Reward:</label>
+      <br>
+      <textarea #newReward></textarea>
+    </div>
+
+    <div>
+      <label>Money Goal:</label>
+      <br>
+      <input type="number" #newMoney>
+    </div>
+    <button class="sub-btn btn btn-danger" (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''; newMoney.value='';">Add</button>
+  </div>
+</div>

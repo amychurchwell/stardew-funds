@@ -4,11 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Specs
 
-- [ ] As a user, I want to see a list of all projects, ideas, and charitable acts that are seeking funding.
+- [x] As a user, I want to see a list of all projects, ideas, and charitable acts that are seeking funding.
 
 - [x] As a user, I want to click a project to see more details.
 
-- [ ] As a user, I'd like to know the details of a project before I decide whether to fund it.
+- [x] As a user, I'd like to know the details of a project before I decide whether to fund it.
 
 Including things like:
 * a name
@@ -22,7 +22,7 @@ Including things like:
 
 - [ ] As a user, I want to click a button or fill out a form to fund a project.
 
-- [ ] As a user, I want the option to post my own project or charitable act that seeks funding.
+- [x] As a user, I want the option to post my own project or charitable act that seeks funding.
 
 - [ ] As an administrator, I want to add, update, or delete projects as necessary. (User authentication is not required).
 

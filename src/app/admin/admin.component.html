@@ -1,39 +1,38 @@
 <div class="container">
-  <div class="panel-heading">
-    <h3>Add New Project to the Site</h3>
+  <div class="card">
+    <h3 class="card-title">Add New Project to Inventory</h3>
   </div>
-  <div class="panel-body">
+  <div class="card-body">
     <div>
       <div>
-        <label>Project Name:</label>
+        <label>Project Title:</label>
         <br>
         <input #newName>
       </div>
 
       <div>
-        <label>Author:</label>
+        <label>Project Author:</label>
         <br>
         <input #newAuthor>
       </div>
 
       <div>
-        <label>Description:</label>
+        <label>Project Description:</label>
         <br>
         <textarea #newDescription></textarea>
       </div>
 
       <div>
-        <label>Reward:</label>
-        <br>
-        <textarea #newReward></textarea>
-      </div>
-
-      <div>
-        <label>Money Goal:</label>
+        <label>Project Funds Needed:</label>
         <br>
         <input type="number" #newMoney>
       </div>
-      <button class="sub-btn btn btn-danger" (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''; newMoney.value='';">Add</button>
+
+      <button class="btn btn-info" (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newMoney.value=''">Add</button>
     </div>
   </div>
+</div>
+
+<div>
+  <app-welcome></app-welcome>
 </div>

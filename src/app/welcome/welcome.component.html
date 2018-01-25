@@ -1,5 +1,19 @@
 <div class="container">
-  <div *ngFor="let project of projects | async" (click)="goToDetailPage(project)" class="card">
-    <h2>{{project.name}} by {{project.author}}</h2>
+  <div class="row">
+    <div *ngFor="let project of projects | async" class="col-md-6">
+      <div class="card">
+        <h5 class="card-title" (click)="goToDetailPage(project)">{{project.name}} by {{project.author}}</h5>
+        <div *ngIf="currentRoute === '/admin'">
+          {{project.description}}
+          <hr>
+          <app-edit-project [selectedProject]="project"></app-edit-project>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- <div class="row">
+    <div class="col">
+      <app-form></app-form>
+    </div>
+  </div> -->
 </div>

@@ -10,6 +10,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { AdminComponent } from './admin/admin.component';
+import { FormComponent } from './form/form.component';
+import { EditProjectComponent } from './edit-project/edit-project.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyCYz0PfNaP_WRZNdmv_WW17xHxaIrEaVHc",
@@ -26,6 +28,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     ProjectDetailComponent,
     AdminComponent,
+    FormComponent,
+    EditProjectComponent,
   ],
   imports: [
     BrowserModule,
