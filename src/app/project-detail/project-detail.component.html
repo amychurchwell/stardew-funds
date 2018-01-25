@@ -3,4 +3,6 @@
   <h6>Posted By: {{(projectToDisplay | async)?.author}}</h6>
   <p class="detail-desc">{{(projectToDisplay | async)?.description}}</p>
   <h6>Reward to the highest funder: {{(projectToDisplay | async)?.reward}}</h6>
+  <h6>Money needed to reach goal: {{(projectToDisplay | async)?.money}} g</h6>
+  <button (click)="fundProject(projectToDisplay)" class="btn btn-success">Fund this project!</button>
 </div>

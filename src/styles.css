@@ -21,3 +21,8 @@
 .detail-desc {
   line-height: 30px;
 }
+
+.sub-btn {
+  width: 300px;
+  margin-top: 20px;
+}

@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [ ] As a user, I want to see a list of all projects, ideas, and charitable acts that are seeking funding.
 
-- [ ] As a user, I want to click a project to see more details.
+- [x] As a user, I want to click a project to see more details.
 
 - [ ] As a user, I'd like to know the details of a project before I decide whether to fund it.
 

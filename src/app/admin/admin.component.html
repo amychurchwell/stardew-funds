@@ -1,6 +1,6 @@
-<div class="panel panel-default">
+<div class="container">
   <div class="panel-heading">
-    <h3 class="panel-title">Add New Project to the Site</h3>
+    <h3>Add New Project to the Site</h3>
   </div>
   <div class="panel-body">
     <div>
@@ -33,7 +33,7 @@
         <br>
         <input type="number" #newMoney>
       </div>
-      <button (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''; newMoney.value='';">Add</button>
+      <button class="sub-btn btn btn-danger" (click)="submitForm(newName.value, newAuthor.value, newDescription.value, newReward.value, newMoney.value); newName.value=''; newAuthor.value=''; newDescription.value=''; newReward.value=''; newMoney.value='';">Add</button>
     </div>
   </div>
 </div>

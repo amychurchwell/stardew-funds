@@ -28,4 +28,9 @@ export class ProjectDetailComponent implements OnInit {
     this.projectToDisplay = this.projectService.getProjectById(this.projectId);
   }
 
+  fundProject(projectToDisplay){
+    console.log(this.projectToDisplay);
+    return this.projectToDisplay.money - 1;
+  }
+
 }
