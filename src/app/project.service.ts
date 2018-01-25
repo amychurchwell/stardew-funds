@@ -28,4 +28,9 @@ export class ProjectService {
                                 description: localUpdatedProject.description});
   }
 
+  deleteProject(localProjectToDelete){
+    var projectEntryInFirebase = this.getProjectById(localProjectToDelete.$key);
+    projectEntryInFirebase.remove();
+  }
+
 }
