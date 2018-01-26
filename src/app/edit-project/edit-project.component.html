@@ -11,6 +11,11 @@
 <label>New Project Description:</label>
 <input [(ngModel)]="selectedProject.description">
 <br>
+
+<label>Money:</label>
+<input [(ngModel)]="selectedProject.money">
+<br>
+
 <button class="btn btn-info"(click)="beginUpdatingProject(selectedProject)">Update</button>
 
 <button class="btn btn-info"(click)="beginDeletingProject(selectedProject)">Delete</button>
